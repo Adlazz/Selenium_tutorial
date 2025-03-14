@@ -1,0 +1,8 @@
+# Ignorar la carpeta venv
+venv/
+
+# Ignorar las carpetas __pycache__
+__pycache__/
+*.py[cod]
+*$py.class
+
