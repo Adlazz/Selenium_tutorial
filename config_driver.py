@@ -40,6 +40,6 @@ def open_page(url):
     time.sleep(random.uniform(1, 3))  # Simula comportamiento humano
     
     driver.get(url)
-    wait = WebDriverWait(driver, 50)
+    wait = WebDriverWait(driver, 10)
 
     return driver, wait  # Devuelve el driver y el objeto WebDriverWait
